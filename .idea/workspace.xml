@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36aa6ce3-2b7c-407a-bcd4-f785230b77d4" name="Default Changelist" comment="" />
+    <list default="true" id="36aa6ce3-2b7c-407a-bcd4-f785230b77d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/DbController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/TabsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app/Db.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app/Tabs.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/DatabaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/Foodl-1.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Foodl-1.0.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/Foodl-1.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Foodl-1.0.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Foodl-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Foodl-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Andmebaas.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Arvuta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app/Arvuta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/Foodl" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Foodl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/Foodl.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Foodl.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/ArvutaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Andmebaas.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Arvuta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/Arvuta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Main.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,16 +98,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ww6qYvJ0BuTmO59tzO4GJIXnFN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/app" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/app" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -82,6 +126,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/app" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/libs" />
     </key>
   </component>
@@ -118,6 +163,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Foodl [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Foodl [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,6 +204,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Foodl [run]" />
+        <item itemvalue="Gradle.Foodl [clean]" />
         <item itemvalue="Application.DatabaseHandler" />
         <item itemvalue="Gradle.Foodl [build]" />
       </list>
@@ -158,46 +223,58 @@
       <workItem from="1580048505749" duration="470000" />
       <workItem from="1580114160053" duration="7959000" />
       <workItem from="1580139466073" duration="4945000" />
-      <workItem from="1580147155587" duration="6283000" />
+      <workItem from="1580147155587" duration="16098000" />
+      <workItem from="1580226668976" duration="11077000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="893" y="237" width="765" height="916" key="#Toorik_[run]" timestamp="1580114255095">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="893" y="237" width="765" height="916" key="#Toorik_[run]/0.0.2560.1390@0.0.2560.1390" timestamp="1580114255095" />
-    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser" timestamp="1580115448241">
+    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser" timestamp="1580238820553">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1390@0.0.2560.1390" timestamp="1580115448241" />
-    <state x="422" y="401" width="532" height="599" key="FileChooserDialogImpl" timestamp="1580147183977">
+    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1390@0.0.2560.1390" timestamp="1580238820553" />
+    <state x="947" y="384" width="657" height="623" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580239638186">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state x="422" y="401" width="532" height="599" key="FileChooserDialogImpl/0.0.2560.1390@0.0.2560.1390" timestamp="1580147183977" />
-    <state width="2500" height="374" key="GridCell.Tab.0.bottom" timestamp="1580153403560">
+    <state x="947" y="384" width="657" height="623" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1390@0.0.2560.1390" timestamp="1580239638186" />
+    <state x="422" y="401" width="532" height="599" key="FileChooserDialogImpl" timestamp="1580229043810">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1390@0.0.2560.1390" timestamp="1580153403560" />
-    <state width="2500" height="374" key="GridCell.Tab.0.center" timestamp="1580153403558">
+    <state x="422" y="401" width="532" height="599" key="FileChooserDialogImpl/0.0.2560.1390@0.0.2560.1390" timestamp="1580229043810" />
+    <state width="2500" height="374" key="GridCell.Tab.0.bottom" timestamp="1580240722657">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.center/0.0.2560.1390@0.0.2560.1390" timestamp="1580153403558" />
-    <state width="2500" height="374" key="GridCell.Tab.0.left" timestamp="1580153403557">
+    <state width="2500" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722657" />
+    <state width="2500" height="374" key="GridCell.Tab.0.center" timestamp="1580240722651">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.left/0.0.2560.1390@0.0.2560.1390" timestamp="1580153403557" />
-    <state width="2500" height="374" key="GridCell.Tab.0.right" timestamp="1580153403559">
+    <state width="2500" height="374" key="GridCell.Tab.0.center/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722651" />
+    <state width="2500" height="374" key="GridCell.Tab.0.left" timestamp="1580240722650">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.right/0.0.2560.1390@0.0.2560.1390" timestamp="1580153403559" />
+    <state width="2500" height="374" key="GridCell.Tab.0.left/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722650" />
+    <state width="2500" height="374" key="GridCell.Tab.0.right" timestamp="1580240722654">
+      <screen x="0" y="0" width="2560" height="1390" />
+    </state>
+    <state width="2500" height="374" key="GridCell.Tab.0.right/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722654" />
     <state x="58" y="247" width="1269" height="906" key="SettingsEditor" timestamp="1580148300773">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="58" y="247" width="1269" height="906" key="SettingsEditor/0.0.2560.1390@0.0.2560.1390" timestamp="1580148300773" />
+    <state x="1008" y="461" width="535" height="469" key="chooseDestDirectoryDialog" timestamp="1580239729198">
+      <screen x="0" y="0" width="2560" height="1390" />
+    </state>
+    <state x="1008" y="461" width="535" height="469" key="chooseDestDirectoryDialog/0.0.2560.1390@0.0.2560.1390" timestamp="1580239729198" />
     <state x="464" y="177" width="1624" height="1036" key="new project wizard" timestamp="1580142625722">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>

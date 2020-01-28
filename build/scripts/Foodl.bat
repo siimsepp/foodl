@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Foodl-1.0.jar;%APP_HOME%\lib\javafx-fxml-11.0.2-linux.jar;%APP_HOME%\lib\javafx-controls-11.0.2-linux.jar;%APP_HOME%\lib\javafx-controls-11.0.2.jar;%APP_HOME%\lib\javafx-graphics-11.0.2-linux.jar;%APP_HOME%\lib\javafx-graphics-11.0.2.jar;%APP_HOME%\lib\javafx-base-11.0.2-linux.jar;%APP_HOME%\lib\javafx-base-11.0.2.jar
+set CLASSPATH=%APP_HOME%\lib\Foodl-1.0.jar;%APP_HOME%\lib\sqlite-jdbc-3.25.2.jar;%APP_HOME%\lib\javafx-fxml-11.0.2-linux.jar;%APP_HOME%\lib\javafx-controls-11.0.2-linux.jar;%APP_HOME%\lib\javafx-controls-11.0.2.jar;%APP_HOME%\lib\javafx-graphics-11.0.2-linux.jar;%APP_HOME%\lib\javafx-graphics-11.0.2.jar;%APP_HOME%\lib\javafx-base-11.0.2-linux.jar;%APP_HOME%\lib\javafx-base-11.0.2.jar
 
 @rem Execute Foodl
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FOODL_OPTS%  -classpath "%CLASSPATH%" app.Main %CMD_LINE_ARGS%

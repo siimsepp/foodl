@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="app.TabsController">
+    <children>
+        <TabPane prefWidth="800.0">
+            <Tab fx:id="tab1" text="Arvuta">
+                <fx:include source="Arvuta.fxml"/>
+            </Tab>
+
+            <Tab fx:id="tab2" text="Andmed">
+                <fx:include source="Db.fxml"/>
+            </Tab>
+        </TabPane>
+    </children>
+
+
+</AnchorPane>
