@@ -22,7 +22,7 @@ public class DbController implements Initializable {
     
     public void dbKontroll(ActionEvent event) throws SQLException {
         
-        dbModel.selectAll();
+        dbModel.select("select * from toiduained");
     }
     
     @Override

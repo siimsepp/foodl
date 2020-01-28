@@ -2,40 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36aa6ce3-2b7c-407a-bcd4-f785230b77d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/DbController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/TabsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app/Db.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app/Tabs.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/DatabaseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/Foodl-1.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Foodl-1.0.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/Foodl-1.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Foodl-1.0.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Foodl-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Foodl-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Andmebaas.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/ArvutaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/ArvutaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/DbController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/DbController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/app/Arvuta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app/Arvuta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Foodl" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Foodl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Foodl.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Foodl.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/ArvutaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/DatabaseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Andmebaas.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Db.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app/Db.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodl" beforeDir="false" afterPath="$PROJECT_DIR$/foodl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/ArvutaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/ArvutaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/DbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/DbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/app/Arvuta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/Arvuta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Db.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/Db.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +209,7 @@
       <workItem from="1580114160053" duration="7959000" />
       <workItem from="1580139466073" duration="4945000" />
       <workItem from="1580147155587" duration="16098000" />
-      <workItem from="1580226668976" duration="11077000" />
+      <workItem from="1580226668976" duration="16131000" />
     </task>
     <servers />
   </component>
@@ -251,22 +236,22 @@
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="422" y="401" width="532" height="599" key="FileChooserDialogImpl/0.0.2560.1390@0.0.2560.1390" timestamp="1580229043810" />
-    <state width="2500" height="374" key="GridCell.Tab.0.bottom" timestamp="1580240722657">
+    <state width="2500" height="374" key="GridCell.Tab.0.bottom" timestamp="1580245973755">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722657" />
-    <state width="2500" height="374" key="GridCell.Tab.0.center" timestamp="1580240722651">
+    <state width="2500" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973755" />
+    <state width="2500" height="374" key="GridCell.Tab.0.center" timestamp="1580245973755">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.center/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722651" />
-    <state width="2500" height="374" key="GridCell.Tab.0.left" timestamp="1580240722650">
+    <state width="2500" height="374" key="GridCell.Tab.0.center/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973755" />
+    <state width="2500" height="374" key="GridCell.Tab.0.left" timestamp="1580245973754">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.left/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722650" />
-    <state width="2500" height="374" key="GridCell.Tab.0.right" timestamp="1580240722654">
+    <state width="2500" height="374" key="GridCell.Tab.0.left/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973754" />
+    <state width="2500" height="374" key="GridCell.Tab.0.right" timestamp="1580245973755">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.right/0.0.2560.1390@0.0.2560.1390" timestamp="1580240722654" />
+    <state width="2500" height="374" key="GridCell.Tab.0.right/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973755" />
     <state x="58" y="247" width="1269" height="906" key="SettingsEditor" timestamp="1580148300773">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
