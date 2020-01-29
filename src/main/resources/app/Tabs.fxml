@@ -14,6 +14,10 @@
             <Tab fx:id="tab2" text="Andmed">
                 <fx:include source="Db.fxml"/>
             </Tab>
+
+            <Tab fx:id="tab3" text="Tabel">
+                <fx:include source="Table.fxml"/>
+            </Tab>
         </TabPane>
     </children>
 

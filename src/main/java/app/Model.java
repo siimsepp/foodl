@@ -25,6 +25,31 @@ public class Model {
         return toiduainedAndmebaasist;
     }
     
+    
+    
+    
+    public List<Toiduaine> selectToiduainedMakeObjects(String sql) throws SQLException {
+        
+        List<Toiduaine> toiduainedAndmebaasist = new ArrayList<>();
+        try {
+            ResultSet rs = conn.createStatement().executeQuery(sql);
+            while (rs.next()) {
+                Integer id = rs.getInt("id");
+                String toit = rs.getString("toit");
+                Double tihedus = rs.getDouble("tihedus");
+                Toiduaine toiduaine = new Toiduaine(id, toit, tihedus);
+                toiduainedAndmebaasist.add(toiduaine);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return toiduainedAndmebaasist;
+    }
+    
+    
+    
+    
+    
     public double selectDensity(String sql) throws SQLException {
         
         try {

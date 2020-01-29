@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36aa6ce3-2b7c-407a-bcd4-f785230b77d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/TableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Toiduaine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app/Table.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,14 +16,11 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/ArvutaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/ArvutaController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/DbController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/DbController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Arvuta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app/Arvuta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Db.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app/Db.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodl" beforeDir="false" afterPath="$PROJECT_DIR$/foodl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/app/Tabs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/app/Tabs.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/ArvutaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/ArvutaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/DbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/DbController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Arvuta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/Arvuta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Db.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/Db.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/Tabs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/Tabs.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +78,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -209,7 +209,7 @@
       <workItem from="1580114160053" duration="7959000" />
       <workItem from="1580139466073" duration="4945000" />
       <workItem from="1580147155587" duration="16098000" />
-      <workItem from="1580226668976" duration="16131000" />
+      <workItem from="1580226668976" duration="21585000" />
     </task>
     <servers />
   </component>
@@ -224,10 +224,14 @@
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="893" y="237" width="765" height="916" key="#Toorik_[run]/0.0.2560.1390@0.0.2560.1390" timestamp="1580114255095" />
-    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser" timestamp="1580238820553">
+    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser" timestamp="1580296233162">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1390@0.0.2560.1390" timestamp="1580238820553" />
+    <state x="1041" y="339" width="470" height="713" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1390@0.0.2560.1390" timestamp="1580296233162" />
+    <state x="577" y="0" width="1390" height="1390" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580299901027">
+      <screen x="0" y="0" width="2560" height="1390" />
+    </state>
+    <state x="577" y="0" width="1390" height="1390" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1390@0.0.2560.1390" timestamp="1580299901027" />
     <state x="947" y="384" width="657" height="623" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580239638186">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
@@ -236,22 +240,22 @@
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="422" y="401" width="532" height="599" key="FileChooserDialogImpl/0.0.2560.1390@0.0.2560.1390" timestamp="1580229043810" />
-    <state width="2500" height="374" key="GridCell.Tab.0.bottom" timestamp="1580245973755">
+    <state width="2500" height="374" key="GridCell.Tab.0.bottom" timestamp="1580299906093">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973755" />
-    <state width="2500" height="374" key="GridCell.Tab.0.center" timestamp="1580245973755">
+    <state width="2500" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1390@0.0.2560.1390" timestamp="1580299906093" />
+    <state width="2500" height="374" key="GridCell.Tab.0.center" timestamp="1580299906092">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.center/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973755" />
-    <state width="2500" height="374" key="GridCell.Tab.0.left" timestamp="1580245973754">
+    <state width="2500" height="374" key="GridCell.Tab.0.center/0.0.2560.1390@0.0.2560.1390" timestamp="1580299906091" />
+    <state width="2500" height="374" key="GridCell.Tab.0.left" timestamp="1580299906091">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.left/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973754" />
-    <state width="2500" height="374" key="GridCell.Tab.0.right" timestamp="1580245973755">
+    <state width="2500" height="374" key="GridCell.Tab.0.left/0.0.2560.1390@0.0.2560.1390" timestamp="1580299906090" />
+    <state width="2500" height="374" key="GridCell.Tab.0.right" timestamp="1580299906092">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
-    <state width="2500" height="374" key="GridCell.Tab.0.right/0.0.2560.1390@0.0.2560.1390" timestamp="1580245973755" />
+    <state width="2500" height="374" key="GridCell.Tab.0.right/0.0.2560.1390@0.0.2560.1390" timestamp="1580299906092" />
     <state x="58" y="247" width="1269" height="906" key="SettingsEditor" timestamp="1580148300773">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>

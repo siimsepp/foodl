@@ -44,7 +44,6 @@ public class ArvutaController implements Initializable {
     }
     
     
-    @FXML
     @Override
     // algväärtustab comboboxi sisu.
     public void initialize(URL url, ResourceBundle resourceBundle) {

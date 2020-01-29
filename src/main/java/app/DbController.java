@@ -17,8 +17,8 @@ public class DbController implements Initializable {
     @FXML
     private Label isConnected;
     
-    @FXML
-    private Button nupp;
+//    @FXML
+//    private Button nupp;
     
     public void dbKontroll(ActionEvent event) throws SQLException {
         
