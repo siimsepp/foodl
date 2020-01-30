@@ -29,7 +29,6 @@ public class ArvutaController implements Initializable {
     
     @FXML
     public void processSisend(ActionEvent event) throws SQLException {
-        
         if (valitud == null) {
             tulemus.setText("Vali toiduaine");
         } else {
@@ -57,6 +56,7 @@ public class ArvutaController implements Initializable {
         toiduained = FXCollections.observableArrayList(toiduainedAndmebaasist);
         valik.setItems(toiduained);
     }
+    
     
     // "valitud" on valitud väärtus comboboxis.
     public void valikVäärtus(ActionEvent event) {

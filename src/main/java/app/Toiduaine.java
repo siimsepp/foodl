@@ -11,7 +11,6 @@ public class Toiduaine {
     private final SimpleDoubleProperty tihedus;
     
     public Toiduaine(Integer id, String toit, Double tihedus) {
-        super();
         this.id = new SimpleIntegerProperty(id);
         this.toit = new SimpleStringProperty(toit);
         this.tihedus = new SimpleDoubleProperty(tihedus);

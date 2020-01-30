@@ -6,18 +6,15 @@ import java.util.List;
 
 public class Model {
     
+    public String dbUuendamine;
     Connection conn = DatabaseHandler.Connector();
     
     public List<String> select(String sql) throws SQLException {
-//        String sql = "SELECT * FROM toiduained";
-//        String sql = "DELETE FROM pere WHERE nimi = 'Hüüp Sepp';";
-        
         List<String> toiduainedAndmebaasist = new ArrayList<>();
         try {
             ResultSet rs = conn.createStatement().executeQuery(sql);
             while (rs.next()) {
                 toiduainedAndmebaasist.add(rs.getString("toit"));
-//                System.out.println(rs.getString("toit"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -25,11 +22,10 @@ public class Model {
         return toiduainedAndmebaasist;
     }
     
-    
-    
-    
-    public List<Toiduaine> selectToiduainedMakeObjects(String sql) throws SQLException {
-        
+    // Tõmbab kõik andmed andmebaasist ja teeb igast reast "Toiduaine" objekti ning tagastab neist objektidest koosneva listi.
+    // Seda on vaja, et objekte saaks tabelis kuvada.
+    public List<Toiduaine> selectToiduainedMakeObjects() throws SQLException {
+        String sql = "SELECT * FROM toiduained";
         List<Toiduaine> toiduainedAndmebaasist = new ArrayList<>();
         try {
             ResultSet rs = conn.createStatement().executeQuery(sql);
@@ -47,41 +43,65 @@ public class Model {
     }
     
     
-    
-    
-    
     public double selectDensity(String sql) throws SQLException {
-        
         try {
             ResultSet rs = conn.createStatement().executeQuery(sql);
             return rs.getDouble("tihedus");
-//            while (rs.next()) {
-//                toiduainedAndmebaasist.add(rs.getString("toit"));
-//                System.out.println(rs.getString("toit"));
-//            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return 0.0;
-//        return toiduainedAndmebaasist;
+    }
+    
+    public void kustutaToiduaine(int id) {
+        String sql = "DELETE FROM toiduained WHERE id = ?";
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setInt(1, id);
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    
+    
+    public void lisaToiduaine(String toit, double tihedus) {
+        String sql = "INSERT INTO toiduained(toit, tihedus) VALUES(?, ?)";
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setString(1, toit);
+            pstmt.setDouble(2, tihedus);
+            
+            // Kontroll, kas õnnestus andmebaasi uuendada.
+            int i = pstmt.executeUpdate();
+            if (i > 0) {
+                dbUuendamine = "Andmed lisatud";
+            } else {
+                dbUuendamine = "Andmeid ei lisatud";
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
     
     
     
-//    public void selectAll() throws SQLException {
-//        String sql = "SELECT * FROM toiduained";
-////        String sql = "DELETE FROM pere WHERE nimi = 'Hüüp Sepp';";
-//        try {
-//            ResultSet rs = conn.createStatement().executeQuery(sql);
-//            while (rs.next()) {
-//                System.out.println(rs.getString("toit"));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-    
-
+    public void uuendaToiduaine(String toit, double tihedus) {
+        String sql = "UPDATE toiduained SET tihedus = ? WHERE toit = ?";
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setDouble(1, tihedus);
+            pstmt.setString(2, toit);
+//            pstmt.executeUpdate();
+            
+            // Kontroll, kas õnnestus andmebaasi uuendada.
+            int i = pstmt.executeUpdate();
+            if (i > 0) {
+                dbUuendamine = "Andmed uuendatud";
+            } else {
+                dbUuendamine = "Andmeid ei uuendatud";
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
     
     
     public Model() {

@@ -1,16 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.TableController">
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.TableController">
     <children>
-        <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="100.0">
+        <TableView fx:id="table" prefHeight="400.0" prefWidth="300.0" tableMenuButtonVisible="true"
+                   AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0">
             <columns>
-                <TableColumn fx:id="id" prefWidth="75.0" text="id" />
-                <TableColumn fx:id="toit" prefWidth="75.0" text="toit" />
-                <TableColumn fx:id="tihedus" prefWidth="75.0" text="tihedus" />
+                <TableColumn fx:id="id" prefWidth="75.0" text="id"/>
+                <TableColumn fx:id="toit" prefWidth="75.0" text="toit"/>
+                <TableColumn fx:id="tihedus" prefWidth="75.0" text="tihedus"/>
             </columns>
+            <effect>
+                <DropShadow/>
+            </effect>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
         </TableView>
+        <Button fx:id="kustutaRida" layoutX="100.0" layoutY="530.0" mnemonicParsing="false"
+                onAction="#eemaldaValitudRida" prefHeight="45.0" prefWidth="250.0" text="Kustuta valitud rida"
+                textFill="#971111">
+            <font>
+                <Font name="Noto Sans Regular" size="15.0"/>
+            </font>
+        </Button>
+        <Label text="Andmebaasis olevad toiduained ja nende tihedused (g/cm3)." AnchorPane.leftAnchor="100.0"
+               AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="50.0">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+
+
+        <Label layoutX="450.0" layoutY="100.0" prefHeight="20.0" prefWidth="250.0" text="Muuda andmeid">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="updateToitTextField" layoutX="450.0" layoutY="130.0" prefHeight="25.0" promptText="toiduaine">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="updateTihedusTextField" layoutX="450.0" layoutY="180.0" prefHeight="25.0"
+                   promptText="tihedus (g/cm3)">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </TextField>
+        <Button layoutX="450.0" layoutY="240.0" mnemonicParsing="false" onAction="#muudaAndmeid" prefHeight="45.0"
+                prefWidth="200.0" text="Muuda andmeid"/>
+
+
+        <Label layoutX="450.0" layoutY="390.0" prefHeight="20.0" prefWidth="250.0" text="Lisa uus toiduaine">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="insertToitTextField" layoutX="450.0" layoutY="420.0" prefHeight="25.0" promptText="toiduaine">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="insertTihedusTextField" layoutX="450.0" layoutY="470.0" prefHeight="25.0"
+                   promptText="tihedus (g/cm3)">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </TextField>
+        <Button layoutX="450.0" layoutY="530.0" mnemonicParsing="false" onAction="#lisaRida" prefHeight="45.0"
+                prefWidth="200.0" text="Lisa toiduaine"/>
+
+
+        <Label fx:id="muudaVeateade" layoutX="450.0" layoutY="319.0" prefHeight="25.0" prefWidth="200.0"
+               textFill="#dd1313">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+
+        <Label fx:id="muudaEduteade" layoutX="450.0" layoutY="319.0" prefHeight="25.0" prefWidth="200.0"
+               textFill="#249440">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+
+
+        <Label fx:id="lisaVeateade" layoutX="450.0" layoutY="590.0" prefHeight="25.0" prefWidth="200.0"
+               textFill="#dd1313">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+
+        <Label fx:id="lisaEduteade" layoutX="450.0" layoutY="590.0" prefHeight="25.0" prefWidth="200.0"
+               textFill="#249440">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Label>
+
+
     </children>
 </AnchorPane>
