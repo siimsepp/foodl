@@ -1,0 +1,73 @@
+/** {*/
+/*    -fx-font-size: 12pt;*/
+/*}*/
+
+
+/*.menu-bar .label {*/
+/*    -fx-font-size: 12pt;*/
+/*-fx-font-family: "Segoe UI Light";*/
+/*-fx-text-fill: #dedede;*/
+/*}*/
+
+/*#kustutaRida {*/
+/*    -fx-background-color: red;*/
+/*    -fx-t;*/
+/*}*/
+
+.button {
+    -fx-background-color: linear-gradient(#ffd65b, #e68400),
+    linear-gradient(#ffef84, #f2ba44),
+    linear-gradient(#ffea6a, #efaa22),
+    linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0, 1, 2, 3, 0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+.tab {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-font-size: 12pt;
+    /*-fx-background-color: transparent, tab-border-color, tab-color;*/
+    /*tab-color: linear-gradient(light-tab-color, dark-tab-color);*/
+    /*tab-border-color: dark-tab-color;*/
+    /*dark-tab-color: #721b1b;*/
+    /*light-tab-color: #9b2626;*/
+    /*-fx-font-size: 12pt;*/
+    /*-fx-background-insets: 0, 0 5 0 0, 1 6 0 0;*/
+    /*-fx-padding: 4 10 4 4;*/
+}
+
+/*.tab-label {*/
+/*    !*-fx-text-fill: white;*!*/
+/*}*/
+
+/*.tab:hover {*/
+/*    tab-color: light-tab-color;*/
+/*}*/
+
+/*.tab:pressed {*/
+/*    tab-color: dark-tab-color;*/
+/*}*/
+
+
+/*.tab-pane {*/
+/*    -fx-font-size: 12pt;*/
+/*    -fx-focus-color: transparent;*/
+/*    -fx-faint-focus-color: transparent;*/
+/*    !*-fx-background-color: orange;*!*/
+/*}*/
+
+
+/*#tab1 {*/
+/*    !*-fx-margin-right: 105px;*!*/
+/*    !*-fx-background-color: #f7941d;*!*/
+/*    !*    -fx-border-color: green;*!*/
+/*    !*    -fx-border-radius: 5;*!*/
+/*    !*    -fx-border-style: groove;*!*/
+/*}*/
