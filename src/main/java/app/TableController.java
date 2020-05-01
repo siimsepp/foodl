@@ -15,6 +15,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.ResourceBundle;
 
+// Realiseerib liidese Initializable, sest tabelisse tuleb kohe kuvada sisu.
 public class TableController implements Initializable {
     
     @FXML

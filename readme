@@ -1,0 +1,16 @@
+Programmi autor: Siim Sepp*
+
+Programmi eesmärk
+
+Toidu valmistamisel retsepti järgi juhtub, et kogus antakse grammides, aga ma tahaksin teada, kui suurele mahule see vastab detsiliitrites. Erinevate  toiduainete tihedus on erinev, mistõttu ei ole sellist arvutust peast kuigi lihtne teha. Programmi eesmärgiks on sellele probleemile lahendus leida. Selleks suhtleb kasutaja andmebaasiga (mis igale kasutajale on erinev, sest andmebaas asub kasutaja arvutis), mida kasutaja ise saab täiendada ja muuta.
+
+Programmi kasutamine
+
+Kasutajale avaneb vaade kahe vahelehega. Esimeses toimub arvutamine. Kasutaja saab rippmenüüst valida toiduaine ja sisestada kaalu grammides. Programm arvutab vastavalt valitud toiduaine tihedusele selle mahu detsiliitrtes. Teisel vahelehel saab kasutaja andmebaasi muuta. Ta saab lisada uusi toiduaineid, valitud toiduaineid andmebaasist kustutada ning samuti toiduaine andmeid muuta. Andmete muutmiseks tuleb anda toiduaine nimi ja sisestada selle muudetud tihedus. Selleks, et uut lisatud toiduainet arvustustes kasutada, tuleb programm sulgeda ja seejärel uuesti avada. See on praeguse lahenduse suurim probleem. Ma ei suutnud välja mõelda, kuidas teha nii, et esimese vaate rippmenüü sisu uuendatakse koheselt, kui teises vaates midagi muudetakse.
+
+Kommentaarid
+
+Hästi sain hakkama sellega, et suutsin iseseisva tööga ja internetimaterjalidele toetudes realiseerida graafilise kasutajaliidesega programmmi, mis enam-vähem teeb seda, mida ma soovin. Halvasti on see, et kodutöö nõuetele see töö väga hästi ei vasta. Näiteks pole faili kirjutamist ja sealt lugemist, aga võib-olla andmebaas osaliselt asendab selle puuduse. Samuti ei pruugi veahaldus olla selline, mida OOPi kursuses oleme käsitlenud. Programmi testimine oli manuaalne. Lihtsalt vaatasin, kas programm teeb seda, mida ta tervele mõistusele tuginedes peaks tegema ja kui ei teinud, siis parandasin. Automaatkontrolle ei ole.
+
+
+* olen teadlik, et projekt peab olema tehtud rühmakaaslasega, aga kuna ma ajapuudusel ei saanud praegu ette võtta uue projektiga tegelemist, siis otsustasin esitada projekti, mille kallal ma töötasin veebruaris. Ma tegin seda üksi ja seega ei ole mõtet hakata kedagi kampa võtma. Saan aru, et niiviisi ma kaotan punkte ja see on mulle ok.
